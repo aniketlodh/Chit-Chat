@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.chat{
+  width: 800px;
+  max-width: 90%;
+  margin-top: 70px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+}
+#brandHeading{
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.chat-area{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  padding-top: 40px;
+  overflow-y: auto;
+}
+.message{
+  width: auto;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.message h4{
+  position: absolute;
+  top:-20px;
+  left: 0;
+}
+.sent{
+  margin-left: auto;
+  background: #e9eafd;
+  color: #787986;
+}
+.received{
+  background: #25D366;
+  color: black;
+}
+
+#textarea{
+  width: 800px;
+  padding: 10px;
+
+}
+#send{
+  display: block;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+}
